@@ -1,0 +1,62 @@
+.site-main .intro-section .container {
+    width: 1280px;
+    height: 600px;
+    background-image: url(../images/Bitmap.png);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.intro-section__intro-div {
+    width: 500px;
+    padding: 90px 85px;
+}
+
+.intro-section__heading{
+    width: 500px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+
+.intro-section__text{
+    width: 440px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 56px;
+}
+
+.intro-section__link{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #0E8784;
+    border-radius: 6px;
+}
+
+.intro-section__link:hover {
+    background-color: #66D2CF;
+}
+
+.intro-section__link:active {
+    background-color: #E2DEDB;
+}
+
+
+// ===========================================================================

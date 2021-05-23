@@ -21,7 +21,7 @@ html {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-}     
+}
 
 body {
     height: 100%;
@@ -31,4 +31,11 @@ body {
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
