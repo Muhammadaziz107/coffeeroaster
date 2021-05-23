@@ -60,3 +60,36 @@
 
 
 // ===========================================================================
+
+
+.site-main__intro-section .container {
+    background-image: url(../images/intro-img.jpg);
+    width: 1280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.intro-section__div-one {
+    width: 445px;
+    padding: 137px 85px;
+}
+
+.intro-section__heading {
+    color: white;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.intro-section__text {
+    width: 445px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
