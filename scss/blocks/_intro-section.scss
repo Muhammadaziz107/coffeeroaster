@@ -93,3 +93,35 @@
     line-height: 26px;
     color: #FEFCF7;
 }
+// ==============================================================================
+.site-main__hero-section .container {
+    background-image: url(../images/hero-img.jpg);
+    width: 1280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.hero-section__div{
+    width: 486px;
+    padding: 134px 85px;
+}
+
+.hero-section___heading{
+    color: white;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.hero-section___text {
+    width: 445px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}

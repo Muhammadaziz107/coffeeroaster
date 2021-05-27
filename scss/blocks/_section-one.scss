@@ -1,4 +1,4 @@
-.section-one__visually-hidden{
+.section-one__visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -8,12 +8,12 @@
     padding: 0;
     clip: rect(0 0 0 0);
     -webkit-clip-path: inset(50%);
-            clip-path: inset(50%);
+    clip-path: inset(50%);
     margin: -1px;
 }
 
 .section-one .container {
- margin: 200px auto;
+    margin: 200px auto;
 }
 
 .section-one__collection-div {
@@ -100,4 +100,85 @@
     line-height: 26px;
     color: #333D4B;
     opacity: 0.8;
+}
+
+// ===============================================================================
+
+.section-plan-one .container {
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 177px;
+    background-color: #2C343E;
+    border-radius: 10px;
+}
+
+.section-plan-one__div {
+    display: flex;
+    width: 1045px;
+    margin-top: 95px;
+    margin-bottom: 95px;
+    margin-left: 85px;
+
+}
+
+.section-plan-one__menu {
+    position: relative;
+    display: flex;
+}
+
+.section-plan-one__menu::before {
+    position: absolute;
+    content: '';
+    width: 760px;
+    height: 2px;
+    background-color: #FDD6BA;
+    border: 2px solid #FDD6BA;
+}
+
+.section-plan-one__list-item {
+    width: 285px;
+    margin-right: 95px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.section-plan-one__list-item::before {
+    position: absolute;
+    bottom: 96%;
+    content: "";
+    width: 31px;
+    height: 31px;
+    border: 2px solid #0E8784;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.section-plan-one__heading {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.section-plan-one__medium-heading {
+    width: 255px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FEFCF7;
+}
+
+.section-plan-one__list-item .section-plan-one__p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
 }
