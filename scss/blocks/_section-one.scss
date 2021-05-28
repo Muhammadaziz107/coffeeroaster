@@ -129,10 +129,12 @@
 .section-plan-one__menu::before {
     position: absolute;
     content: '';
-    width: 760px;
+    width: 775px;
+    justify-content: center;
+    z-index: 10;
     height: 2px;
     background-color: #FDD6BA;
-    border: 2px solid #FDD6BA;
+    border:1px solid #FDD6BA;
 }
 
 .section-plan-one__list-item {
@@ -144,6 +146,7 @@
 
 .section-plan-one__list-item::before {
     position: absolute;
+    z-index: 100;
     bottom: 96%;
     content: "";
     width: 31px;
