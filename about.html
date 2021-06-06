@@ -10,24 +10,34 @@
 </head>
 
 <body>
-    <header class="site-header">
+    <header class="header">
         <div class="container">
-            <a class="site-header__site-logo" href="#"><img src="./images/logo.svg" alt="Site Header Logo" width="236"
-                    height="26"></a>
-            <nav class="site-header__site-nav">
-                <ul class="site-header__menu">
-                    <li class="site-header__list-item"><a href="./index.html" class="site-header-list-link"
-                            href="#">Home</a></li>
-                    <li class="site-header__list-item"><a href="./about.html"
-                            class="site-header-list-link site-header__link--active" href="#">About us</a>
+            <a class="site-logo-link" href="#"><img class="site-logo" src="./images/logo.svg"
+                    alt="a logo of cofferoasters displayed two coffe beans" width="236" height="26" /></a>
+
+            <nav class="nav-bar">
+                <ul class="nav-bar__list">
+                    <li class="nav-bar__item">
+                        <a class="nav-bar__link" href="./index.html">home</a>
                     </li>
-                    <li class="site-header__list-item"><a href="./createyourplan.html" class="site-header-list-link" href="#">Create your
-                            plan</a></li>
+                    <li class="nav-bar__item">
+                        <a class="nav-bar__link nav-bar__link--active" href="./about.html">about us</a>
+                    </li>
+                    <li class="nav-bar__item">
+                        <a class="nav-bar__link" href="./createyourplan.html">create your plan</a>
+                    </li>
                 </ul>
             </nav>
+            <button class="hamburger-btn" type="button">
+                <img class="hamburger-icon" src="./images/icon-open.svg"
+                    alt="an icon of hamburger that is hiding nav-bar" width="16" height="15" />
+                <img class="exit-icon" src="./images/icon-close.svg" alt="an icon of hamburger that is hiding nav-bar"
+                    width="16" height="15" />
+            </button>
         </div>
     </header>
-    <!-- /* =============================site-header-end============================ */ -->
+
+    <script src="./main.js"></script>
     <main class="site-main">
         <section class="site-main__intro-section">
             <div class="container">

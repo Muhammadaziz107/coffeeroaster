@@ -1,0 +1,121 @@
+.header {
+    padding: 44px 0;
+  }
+  
+  .header .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .site-logo-link {
+    z-index: 12;
+    width: 100%;
+    max-width: 100px;
+    max-width: 236px;
+    margin-right: auto;
+  }
+  
+  .site-logo {
+    vertical-align: middle;
+  }
+  
+  
+  .nav-bar__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  
+  .nav-bar__link {
+    margin-left: 33px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888f;
+  }
+  
+  .hamburger-btn {
+    z-index: 13;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .exit-icon {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 620px) {
+    .site-logo {
+      width: 100%;
+      max-width: 163px;
+      height: 18px;
+    }
+    .nav-bar__list {
+      display: none;
+    }
+  
+    .hamburger-btn {
+      display: block;
+    }
+  
+    .header--adaptive .nav-bar {
+      display: block;
+      position: fixed;
+      z-index: 10;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      padding-top: 130px;
+      background: linear-gradient(
+        180deg,
+        rgba(254, 252, 247, 0.504981) 0%,
+        #fefcf7 55.94%
+      );
+      transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+  
+    .header--adaptive .nav-bar__list {
+      display: flex;
+      flex-direction: column;
+      transform: rotateX(180deg);
+      text-align: center;
+    }
+  
+    .header--adaptive .nav-bar .nav-bar__link {
+      z-index: 15;
+      display: inline-block;
+      margin: 0;
+      margin-bottom: 32px;
+      font-family: Fraunces, "Times New Roman", Times, serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 32px;
+      text-align: center;
+      color: #333d4b;
+    }
+  
+    .header--adaptive .hamburger-icon {
+      display: none;
+    }
+    .header--adaptive .exit-icon {
+      display: block;
+    }
+  }
+  
+
+  .nav-bar__link--active{
+    color: black;
+    text-decoration: underline;
+  }
+
+  
